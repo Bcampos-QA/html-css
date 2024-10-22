@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+
+        }
+
+        a{
+            color: red;   /* Cor do link   */
+            text-decoration: none;/* Retirar o sublinhado */
+        }
+        a:visited{
+            color: darkblue;/* Cor Dos links visitados*/
+            
+        }
+
+        a:hover{
+            color: black;/* Ao passar o mouse fica preto*/
+            text-decoration: underline;/* colocar o Sublinhado*/
+
+        }
+
+        .especial{/* classe especial*/
+            background-color: rgb(170, 26, 86);
+        }
+        a:active{
+            color: yellow;/*Ao clicar fica amarelo*/
+        }
+
+        .especial::before{/*Pseudo classe (especial) o que vai aparecer antes*/
+            content: '🐟';
+        }
+
+        .especial::after{/*Pseudo classe (especial) o que vai aparecer depois*/
+            content: '🐠';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando Links</h1>
+    <li><a href="https://www.santosfc.com.br" class="especial"> Site Santos Fc</a></li>
+    <li><a href="https://www.paranaclube.com.br">Site Paraná Clube</a></li>
+    <li><a href="https://www.coritiba.com.br" class="especial">Site Coritiba FC</a></li>
+</body>
+</html>
