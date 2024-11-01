@@ -3,9 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        td.num{
+            text-align: right;
+            background-color: red;
+        }
+
+    </style>
+    <!--
+    ANATOMIA PARA TABELAS GRANDES 
+    TABLE
+        THEAD
+            TR,TD,TH
+        TBODY
+            TR,TD,TH
+        TFOOT
+            TR,TD,TH
+-->
 </head>
 <body>
+    <table>
+        <thead>
+            <tbody>
+                <tr>
+                    <th>Estado</th>
+                    <th>População</th>
+                    <th>% da População</th>
+                    <th>País comparável</th>
+                    
+
+                </tr>
+                <tr>
+                    <td> São Paulo</td>
+                    <td class="num">45 973 190</td>
+                    <td>21,88%</td>
+                    <td> Argentina (46 621 847)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td  class="num">21 322 692</td>
+                    <td>10,11%</td>
+                    <td>Burquina Fasso (20 903 273)</td>
+                    
+                </tr>
+                <tr>
+                    <td >Rio de Janeiro</td>
+                    <td class="num">17 219 679</td>
+                    <td>7,91%</td>
+                    <td> Camboja (16 718 965)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Bahia</td>
+                    <td class="num">14 850 513</td>
+                    <td>6,96%</td>
+                    <td> Zimbabwe (14 862 924)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Paraná</td>
+                    <td class="num">11 824 665</td>
+                    <td>5,64%</td>
+                    <td> Tunísia (11 818 619)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Rio Grande do Sul</td>
+                    <td class="num">11 229 915	</td>
+                    <td>5,36%</td>
+                    <td>Portugal (10 343 066)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Pernambuco</td>
+                    <td class="num">9 539 029	</td>
+                    <td>4,46%</td>
+                    <td> Áustria (9 006 398)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Ceará</td>
+                    <td class="num">9 233 656</td>
+                    <td>4,33%</td>
+                    <td> Papua-Nova Guiné (8 947 024)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Pará</td>
+                    <td class="num">8 664 306</td>
+                    <td>4,1%</td>
+                    <td> Suíça (8 654 622)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td class="num">8 058 447</td>
+                    <td>3,75%</td>
+                    <td> Laos (7 749 595)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Goiás</td>
+                    <td class="num">7 350 483</td>
+                    <td>3,47%</td>
+                    <td> Bulgária (6 948 445)</td>
+                    
+                </tr>  
+                <tr>
+                    <td> Maranhão</td>
+                    <td  class="num">7 010 960	</td>
+                    <td>3,34%	</td>
+                    <td> Bulgária (6 948 445)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Amazonas</td>
+                    <td class="num">4 281 209</td>
+                    <td>1,94%</td>
+                    <td> Geórgia (3 989 167)</td>
+                    
+                </tr> 
+                <tr>
+                    <td>Paraíba</td>
+                    <td class="num">4 145 040</td>
+                    <td>1,96%</td>
+                    <td>Geórgia (3 989 167)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Espírito Santo</td>
+                    <td class="num">4 102 129</td>
+                    <td>1,89%</td>
+                    <td> Geórgia (3 989 167)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Mato Grosso</td>
+                    <td class="num">3 836 399</td>
+                    <td>1,8%</td>
+                    <td> Geórgia (3 989 167)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Rio Grande do Norte</td>
+                    <td  class="num">3 446 071</td> 
+                    <td>1,63%</td>
+                    <td> Uruguai (3 473 730)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Piauí	</td>
+                    <td class="num">3 375 646</td>
+                    <td>1,61%</td>
+                    <td> Bósnia e Herzegovina (3 280 819)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Alagoas</td>
+                    <td class="num">3 220 104</td>
+                    <td>1,54%</td>
+                    <td> Mongólia (3 278 290)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Distrito Federal</td>
+                    <td class="num">2 982 815</td>
+                    <td>1,39%</td>
+                    <td> Armênia (2 963 243)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Mato Grosso do Sul</td>
+                    <td class="num">2 901 895</td>
+                    <td>1,36%</td>
+                    <td> Albânia (2 877 797)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Sergipe</td>
+                    <td class="num">2 291 077</td>
+                    <td>1,09%</td>
+                    <td> Gabão (2 225 734)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Rondônia</td>
+                    <td class="num">1 746 227</td>
+                    <td>0,78%</td>
+                    <td> Bahrein (1 701 575)</td>
+                    
+                </tr>
+                <tr>
+                    <td> Tocantins	</td>
+                    <td class="num">1 577 342</td>
+                    <td>0,74%</td>
+                    <td>Guiné Equatorial (1 402 985)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Acre</td>
+                    <td class="num">880 631	</td>
+                    <td>0,41%</td>
+                    <td>Comores (869 601)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Amapá</td>
+                    <td class="num">802 837</td>
+                    <td>0,36%</td>
+                    <td> Guiana (786 552)</td>
+                    
+                </tr>
+                <tr>
+                    <td>Roraima</td>
+                    <td class="num">716 793	</td>
+                    <td>0,31%</td>
+                    <td> Montenegro (649 335)</td>
+                    
+                </tr>
+                
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total da Populaçao</th>
+                    <td>212 583 720</td>
+                    
+                    
+                </tr>
+
+
+            </tfoot>
+        </thead>
+    </table>
     
 </body>
 </html>
