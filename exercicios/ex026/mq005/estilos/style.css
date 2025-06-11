@@ -29,4 +29,47 @@ span#burguer {
 }
 
 span#burguer:hover {
-    backgro
+    background-color: white; /* Muda o fundo ao passar o mouse */
+    color: black; /* Muda a cor do texto ao passar o mouse */
+}
+
+menu {
+    display: none; /* Oculta o menu por padrão (será exibido via JavaScript) */
+}
+
+menu > ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+}
+
+menu > ul > li > a {
+    display: block; /* Faz os links ocuparem toda a largura */
+    padding: 10px; /* Espaçamento interno nos links */
+    text-align: center; /* Centraliza o texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    background-color: rgb(80, 80, 80); /* Fundo escuro para os links */
+    color: white; /* Texto branco */
+    border-top: 2px solid gray; /* Linha de separação entre os itens */
+}
+
+menu > ul > li a:hover {
+    background-color: gray; /* Cor de fundo ao passar o mouse nos links */
+}
+
+main {
+    width: 90vw; /* Largura de 90% da largura da janela (viewport) */
+    background-color: white; /* Fundo branco para o conteúdo principal */
+    margin: auto; /* Centraliza horizontalmente */
+    margin-top: 10px; /* Espaço acima da main */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+article > h2 {
+    padding-bottom: 20px; /* Espaçamento abaixo do subtítulo */
+}
+
+article > p {
+    text-align: justify; /* Justifica o texto */
+    margin-bottom: 20px; /* Espaço abaixo de cada parágrafo */
+    text-indent: 20px; /* Indentação (recuo) da primeira linha */
+}
