@@ -2,44 +2,6 @@
 
 Este portfólio acompanha meu progresso no curso gratuito de HTML5 e CSS3 do Gustavo Guanabara (Curso em Vídeo), voltado para iniciantes. O curso é dividido em módulos progressivos, com teoria e prática, ensinando os principais fundamentos para construir páginas web.
 
-🧠 Módulos e Conteúdos Estudados
-
-Módulo
-
-Tópicos
-
-Status
-
-1
-
-Introdução ao HTML5
-
-✅ Concluído
-
-2
-
-Estilização com CSS3
-
-✅ Concluído
-
-3
-
-Layout com imagens e caixas
-
-✅ Concluído
-
-4
-
-Tabelas e formulários
-
-⏳ Em andamento
-
-5
-
-Projeto final responsivo
-
-⬜ Pendente
-
 
 🧱 Projetos Realizados
 
