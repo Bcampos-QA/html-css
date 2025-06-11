@@ -1,78 +1,32 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Define o conjunto de caracteres usado no CSS como UTF-8 */
 
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para todos os elementos */
+    margin: 0px; /* Remove as margens padrão */
+    padding: 0px; /* Remove os espaçamentos internos padrão */
 }
 
 body, html {
-    background-color: lightblue;
+    background-color: lightblue; /* Define a cor de fundo da página */
 }
 
-header{
-    background-color: rgb(148, 143, 143);
+header {
+    background-color: rgb(148, 143, 143); /* Define a cor de fundo do cabeçalho */
 }
 
 header > h1 {
-    padding: 10px;  
-    text-align: center;
+    padding: 10px; /* Espaçamento interno ao redor do título */
+    text-align: center; /* Centraliza o texto */
 }
 
-span#burguer{
-    background-color: rgb(53, 53, 53);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    display: block;
-    cursor: pointer;
+span#burguer {
+    background-color: rgb(53, 53, 53); /* Fundo escuro para o botão do menu hambúrguer */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno */
+    display: block; /* Exibe como bloco (ocupa largura total) */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
-span#burguer:hover{
-    background-color: white;
-    color: black;
-}
-
-menu{
-    display: none;
-
-}
-
-menu > ul {
-    list-style-type: none;
-}
-
-menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    background-color: rgb(80, 80, 80);
-    color: white;
-    border-top: 2px solid gray;
-
-}
-
-menu > ul > li a:hover{
-    background-color: gray;
-}
-
-main{
-    width: 90vw;
-    background-color: white;
-    margin: auto;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-article > h2 {
-    padding-bottom: 20px;
-}
-
-article > p{
-    text-align: justify;
-    margin-bottom: 20px;
-    text-indent: 20px;
-
-}
+span#burguer:hover {
+    backgro
