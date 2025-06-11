@@ -1,5 +1,5 @@
 @charset 'UTF-8';
-/*Todas as midis*/
+/*Todas as midias*/
 
 /*Typical Device Breakpoints
 -----------------------------
@@ -11,20 +11,20 @@ Grandes telas:acima de 1200px;
 
 */
 
-@media screen and (min-width: 768px){
-    span#burguer{
-        display: none;
+@media screen and (min-width: 768px) { /* Inicia uma regra de mídia: estas regras só serão aplicadas quando a tela tiver uma largura mínima de 768 pixels (ou seja, 768px ou mais). */
+    span#burguer { 
+        display: none; /* Define que este elemento não será exibido. Ou seja, em telas maiores que 768px, o hambúrguer desaparece. */
     }
 }
 
-menu{
-    display: block;
+menu { 
+    display: block; /* Define que o elemento <menu> será exibido como um bloco, ocupando a largura total disponível e iniciando em uma nova linha. */
 }
 
-menu > ul > li {
-    display: inline-block;
-
+menu > ul > li { 
+    display: inline-block; /* Define que esses itens de lista serão exibidos em linha, um ao lado do outro, mas ainda permitindo que você defina largura e altura (diferente de 'inline'). */
 }
-main{
-    width: 768px;
+
+main { 
+    width: 768px; /* Define uma largura fixa de 768 pixels para o elemento <main>. */
 }

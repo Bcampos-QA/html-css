@@ -33,13 +33,13 @@
 
    <script>
 
-    function mudouTamanho(){
-        if (window.innerWidth >= 768){
-            itens.style.display = 'block'
-        }else{
-            itens.style.display ='none'
-        }
+    function mudouTamanho() { // Declara uma função chamada 'mudouTamanho'.
+    if (window.innerWidth >= 768) { // Verifica se a largura da janela do navegador é maior ou igual a 768 pixels.
+        itens.style.display = 'block'; // Se a condição for verdadeira, o elemento 'itens' será exibido como um bloco (visível).
+    } else { // Se a condição acima for falsa (ou seja, a largura da janela é menor que 768px).
+        itens.style.display = 'none'; // O elemento 'itens' será escondido (não visível).
     }
+}
 
     function clickMenu() { // Função chamada ao clicar no menu
         if (itens.style.display == 'block') { // Verifica se o menu está visível
